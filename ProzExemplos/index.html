@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Um site para uma atividade da Proz">
+  <title>Site Exemplo - Proz</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    h1 {
+      color: black;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    .fnaf {
+      width: 300px;
+      height: 300px;
+      margin-top: 20px;
+    }
+
+    .hollow {
+      width: 300px;
+      height: 300px;
+      margin-top: 20px;
+    }
+
+    .sans {
+      width: 300px;
+      height: 300px;
+      margin-top: 20px;
+    }
+
+    .zelda {
+      width: 300px;
+      height: 300px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Site de exemplo para Proz</h1>
+    <nav>
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Menu</h2>
+      <p>Um exemplo do menu do site. (Estou focando só no código mesmo, não quero perder tanto tempo com o visual).</p>
+      <img class="fnaf" src="IMG/fnaf.png" alt="Imagem aleatória">
+      <br>
+      <br>
+      <p>Five Nights at Freddy's é uma franquia de mídia norte americana criada por Scott Cawthon.<br>O primeiro jogo
+        com o mesmo nome foi lançado em 8 de agosto de 2014, depois de seu lançamento a série se tornou um sucesso
+        mundial.</p>
+      <br>
+      <hr>
+      <img class="hollow" src="IMG/hollowknight.png" alt="Imagem aleatória">
+      <p>Hollow Knight é um jogo indie de gênero metroidvania desenvolvido e publicado pela Team Cherry, lançado para
+        Microsoft Windows,<br> macOS e Linux em 2017 e, posteriormente, para Nintendo Switch, Playstation 4 e Xbox One
+        em 2018.</p>
+    </section>
+    <br>
+    <hr>
+    <section id="sobre">
+      <h2>Sobre</h2>
+      <img class="zelda" src="IMG/zelda.png" alt="Imagem aleatória">
+      <p>The Legend of Zelda é uma série de jogos eletrônicos da Nintendo criada em 1986 por Shigeru Miyamoto e Takashi
+        Tezuka. <br> É centrado em jogos eletrônicos de ação e aventura e alguns elementos de RPG.</p>
+      <br>
+      <hr>
+      <img class="sans" src="IMG/undertale.png" alt="Imagem aleatória">
+      <p>Undertale é um RPG eletrônico criado pelo desenvolvedor independente norte-americano Toby Fox. Nele, o jogador
+        pode controlar uma <br> criança humana que caiu em uma caverna, uma região grande e isolada sob a superfície da
+        Terra, separada por uma barreira mágica.</p>
+    </section>
+    <br>
+    <hr>
+    <section id="contato">
+      <h2>Contato</h2>
+      <form action="/enviar" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Site Para Proz. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+
+</html>
